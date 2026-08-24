@@ -22,7 +22,7 @@
 </head>
 <body>
 <h1>Privacy Policy — Banglu Bengali Keyboard</h1>
-<p><strong>Last updated:</strong> July 10, 2026</p>
+<p><strong>Last updated:</strong> August 23, 2026</p>
 <h2>Overview</h2>
 <p>Banglu Bengali Keyboard ("the App") is a phonetic keyboard application that converts English letters to Bengali text. Core keyboard typing and phonetic conversion work offline on your device and do not send typed text to Banglu's servers. Optional account, sync, subscription, and voice features may use network services as described below. Your privacy is important to us.</p>
 <h2>Data Collection</h2>
@@ -55,6 +55,15 @@
 <p>Banglu does not sell user data. Voice typing may send audio to the Android speech recognition provider selected by your device, such as Google, for transcription. Account and sync requests are sent to Banglu's backend only when you sign in or use sync features.</p>
 <h2>Children's Privacy</h2>
 <p>The app is not directed to children under 13.</p>
+<h2>Banglu Typer for Windows</h2>
+<p>Banglu Typer is our Windows input tool: it converts English letters into Bengali in whatever application you are typing in (Word, browsers, messengers). To do this it uses a standard Windows keyboard hook &mdash; the same mechanism Windows input tools have always used. What that means for your privacy:</p>
+<ul>
+<li><strong>Entirely offline typing:</strong> conversion happens on your computer. The app contains no analytics and no advertising, and your keystrokes are never transmitted anywhere.</li>
+<li><strong>Updates (website edition only):</strong> the copy downloaded from our website checks a static file on GitHub to learn when a new version exists, and downloads the installer from GitHub when you ask it to. The request carries no personal information, no identifier, and nothing about your typing. The Microsoft Store edition contains no network code at all &mdash; the Store handles its updates.</li>
+<li><strong>Learned words:</strong> when you pick a suggestion, that choice is saved locally in <code>%USERPROFILE%\.banglu\learned.json</code> so the app learns your preferences. Delete that file (or the whole <code>.banglu</code> folder) at any time to erase everything the app has learned; nothing else retains it.</li>
+<li><strong>Password managers are excluded by default,</strong> and Windows' secure screens (UAC prompts, the sign-in screen) are never hooked.</li>
+<li><strong>Open source:</strong> the complete source, including the keyboard hook, is public at <a href="https://github.com/Shahabul87/banglu-kmp">github.com/Shahabul87/banglu-kmp</a> (module: windows-ime).</li>
+</ul>
 <h2>Changes to This Policy</h2>
 <p>If we update this privacy policy, we will post the changes here with an updated date.</p>
 <h2>Contact</h2>
